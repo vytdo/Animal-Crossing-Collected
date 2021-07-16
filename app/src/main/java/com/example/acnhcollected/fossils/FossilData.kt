@@ -12,7 +12,8 @@ data class FossilData(
     @SerializedName("name")
     val name: Name,
     @SerializedName("price")
-    val price: Int
+    val price: Int,
+    var isSelected : Boolean = false
 )
 
 data class Name(

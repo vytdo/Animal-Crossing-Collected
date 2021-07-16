@@ -15,4 +15,19 @@
         android:name="com.example.acnhcollected.FossilFragment"
         android:label="fragment_fossil"
         tools:layout="@layout/fragment_fossil" />
+    <fragment
+        android:id="@+id/fishFragment"
+        android:name="com.example.acnhcollected.FishFragment"
+        android:label="fragment_fish"
+        tools:layout="@layout/fragment_fish" />
+    <fragment
+        android:id="@+id/bugFragment"
+        android:name="com.example.acnhcollected.BugFragment"
+        android:label="fragment_bug"
+        tools:layout="@layout/fragment_bug" />
+    <fragment
+        android:id="@+id/seaCreatureFragment"
+        android:name="com.example.acnhcollected.SeaCreatureFragment"
+        android:label="fragment_sea_creature"
+        tools:layout="@layout/fragment_sea_creature" />
 </navigation>
